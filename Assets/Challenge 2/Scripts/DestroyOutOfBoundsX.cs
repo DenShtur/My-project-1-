@@ -6,7 +6,7 @@ public class DestroyOutOfBoundsX : MonoBehaviour
 {
     public float leftLimit = -30;
     public float bottomLimit = 0;
-
+    //lkmpo
     public gameManager ballBehavior;
     private void Start()
     {
