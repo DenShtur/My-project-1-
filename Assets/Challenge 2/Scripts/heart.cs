@@ -4,10 +4,12 @@ using UnityEngine;
 
 public class hearts : MonoBehaviour
 {
+    public bool help = true;
     private void OnTriggerEnter(Collider other)
     {
         Destroy(gameObject);
         gameManager.ballCountmin++;
+
 
     }
 }
